@@ -1,0 +1,143 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(101,74,134);
+    background: linear-gradient(180deg, rgba(101,74,134,1) 0%, rgba(83,66,146,1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section{
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 90px;
+}
+
+.logo{
+    width: 69px;
+    height: 98px;
+    margin-bottom: 40px;
+}
+
+.form_box{
+    
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-bottom: 20px;
+}
+
+.form_con{
+    background-color:white;
+    max-width: 428px;
+    width: 100%;
+    margin: auto;
+
+    border-radius:8px; 
+    padding-top: 40px;
+}
+
+.title{
+    font-size: 1.5rem;
+    color: #70548e;
+    margin-top:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form{
+    padding: 40px;
+    position:relative; 
+}
+.conta label{
+    font-size: 0.85rem;
+    color: #444 !important;
+    
+}
+.form_img{
+    border: 1px #888 solid;
+    width: 348px;
+    height: 44px;
+    border-radius: 4px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.form_img img{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.form_label{
+    position: absolute;
+    left: 45px;
+    margin-bottom: 5px;
+    
+}
+
+#eee{
+    top: 15px;
+}
+#ppp{
+    top: 90px;
+}
+
+input{
+    border:none;
+    width: 248px;
+    height: 24px;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 50px 8px 6px;
+    border-left: 1px solid #bbb;
+    vertical-align: middle;
+    
+}
+
+.sub_btn{
+    width: 348px;
+    height: 46px;
+    border: none;
+    background-color: #70548e;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+
+}
+.form_under{
+    height: 66px;
+    border-top: 1px solid #bbb;
+    line-height: 66px;
+    font-size: 1.1rem;
+    background-color: #f5f5f5;
+    color : #555;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.form_under a{
+    color: #70548e;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.other a{
+    margin-left: 30px;
+    color: white;
+    font-size: 0.9rem;
+}
+.sieee{
+    vertical-align: middle;
+    line-height: 1rem;
+}
+.sieee a{
+    color: #eee;
+}
